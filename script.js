@@ -40,7 +40,7 @@ async function getWeather() {
         const readableDate = new Date(date).toDateString();
 
         html += `
-            <div style="width: 160px; background: #f1f1f1; border-radius: 10px; padding: 12px; text-align: center;">
+            <div style="width: 160px; background:rgb(65, 155, 196); border-radius: 10px; padding: 12px; text-align: center;">
             <h4>${readableDate}</h4>
             <img src="https://openweathermap.org/img/wn/${icon}@2x.png" alt="Weather icon">
             <p><strong>${temp}°C</strong></p>
